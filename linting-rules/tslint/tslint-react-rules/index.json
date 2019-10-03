@@ -1,0 +1,28 @@
+{
+  "extends": ["tslint-react"],
+  "rules": {
+    // TypeScript Specific
+    // These rules find errors related to TypeScript features
+    "jsx-ban-elements": false,
+
+    // Functionality
+    // These rules catch common errors in TS programming or otherwise confusing constructs that are prone to producing bugs
+    "jsx-ban-props": false,
+    "jsx-key": true,
+    "jsx-no-bind": true,
+    "jsx-no-lambda": true,
+    "jsx-use-translation-function": [false, ["allow-punctuation", "allow-htmlentities"]],
+
+    // Style
+    // These rules enforce consistent style across your codebase
+    "jsx-alignment": true,
+    "jsx-boolean-value": [false, "never"],
+    "jsx-curly-spacing": [true, "never"],
+    "jsx-equals-spacing": [true, "never"],
+    "jsx-no-multiline-js": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true,
+    "jsx-space-before-trailing-slash": true,
+    "jsx-wrap-multiline": true
+  }
+}

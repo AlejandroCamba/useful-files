@@ -1,0 +1,31 @@
+{
+  "plugins": ["promise"],
+  "rules": {
+    // Promise
+    // eslint-plugin-promise rules
+    "promise/always-return": "error",
+    "promise/avoid-new": "warn",
+    "promise/catch-or-return": [
+      "error",
+      {
+        "terminationMethod": ["catch", "finally"]
+      }
+    ],
+    "promise/no-callback-in-promise": "warn",
+    "promise/no-native": "warn",
+    "promise/no-nesting": "warn",
+    "promise/no-new-statics": "error",
+    "promise/no-promise-in-callback": "warn",
+    "promise/no-return-in-finally": "error",
+    "promise/no-return-wrap": [
+      "error",
+      {
+        "allowReject": true
+      }
+    ],
+    "promise/param-names": "error",
+    "promise/prefer-await-to-callbacks": "off",
+    "promise/prefer-await-to-then": "off",
+    "promise/valid-params": "warn"
+  }
+}
